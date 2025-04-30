@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "titulo": "Casa en venta en Mar del Plata",
+    "tipo": "Casa",
+    "operacion": "Venta", 
+    "precio": 95000,
+    "moneda": "USD",
+    "ubicacion": {
+      "direccion": "Calle Falsa 123",
+      "ciudad": "Mar del Plata",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "ambientes": 4,
+    "dormitorios": 3,
+    "banos": 2,
+    "cochera": true,
+    "superficie_total_m2": 200,
+    "superficie_cubierta_m2": 150,
+    "descripcion": "Hermosa casa con vista al mar, jardín amplio y quincho.",
+    "servicios": ["Agua corriente", "Luz", "Gas natural", "Internet"],
+    "amenities": ["Jardín", "Parrilla", "Quincho", "Balcón"],
+    "imagenes": [
+      "https://i.imgur.com/imagen1.jpg",
+      "https://i.imgur.com/imagen2.jpg"
+    ],
+    "imagen_destacada": "https://i.imgur.com/imagen1.jpg",
+    "publicado": "2025-04-29",
+    "contacto": {
+      "nombre": "Inmobiliaria Costa",
+      "telefono": "+54 9 223 1234567",
+      "email": "contacto@inmocosta.com"
+    }
+  },
+  {
+    "id": 2,
+    "titulo": "Departamento en alquiler en Buenos Aires",
+    "tipo": "Departamento",
+    "operacion": "Alquiler",
+    "precio": 700,
+    "moneda": "USD",
+    "ubicacion": {
+      "direccion": "Av. Corrientes 456",
+      "ciudad": "Buenos Aires",
+      "provincia": "Capital Federal",
+      "pais": "Argentina"
+    },
+    "ambientes": 3,
+    "dormitorios": 2,
+    "banos": 1,
+    "cochera": false,
+    "superficie_total_m2": 75,
+    "superficie_cubierta_m2": 60,
+    "descripcion": "Departamento moderno con balcón y excelente ubicación.",
+    "servicios": ["Agua corriente", "Luz", "Internet"],
+    "amenities": ["Balcón", "Ascensor"],
+    "imagenes": [
+      "https://i.imgur.com/imagen3.jpg",
+      "https://i.imgur.com/imagen4.jpg"
+    ],
+    "imagen_destacada": "https://i.imgur.com/imagen3.jpg",
+    "publicado": "2025-04-28",
+    "contacto": {
+      "nombre": "Inmobiliaria Centro",
+      "telefono": "+54 9 11 22334455",
+      "email": "info@inmocentro.com"
+    }
+  }
+]
