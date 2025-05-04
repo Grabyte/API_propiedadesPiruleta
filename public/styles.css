@@ -1,0 +1,71 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 2rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2 {
+  color: #90caf9;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.3rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  background: #1e1e1e;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+a {
+  color: #64b5f6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+code, .pre {
+  background-color: #1e1e1e;
+  color: #c5e1a5;
+  border-radius: 4px;
+  display: block;
+  overflow-x: auto;
+}
+
+p {
+  margin-top: 1rem;
+}
+
+.pre {
+  white-space: pre-wrap;
+}
+
+/* 🧩 Grid de tarjetas */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* 📝 Tarjeta individual */
+.card {
+  background-color: #1f1f1f;
+  border: 1px solid #333;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.05);
+}

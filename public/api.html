@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Documentación API de Propiedades Piruleta</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Documentación de la API</h1>
+  <p>Esta API proporciona acceso a un conjunto de propiedades simuladas en formato JSON.</p>
+
+  <h2>Rutas disponibles</h2>
+  <ul>
+    <li>
+      <code>GET /api/properties</code><br>
+      Devuelve un array con todas las propiedades disponibles.
+    </li>
+    <li>
+      <code>GET /api/properties/:id</code><br>Devuelve los detalles completos de una propiedad según su ID.
+    </li>
+    <li>
+      <code>GET /api/properties/summary</code><br>
+      Devuelve un resumen de las propiedades con información básica (ideal para vistas tipo tarjeta).
+    </li>
+  </ul>
+
+  <h2>Ejemplo de respuesta <code>GET /api/properties</code></h2>
+  <div class="card-grid">
+    <div class="card">
+      <section class="pre">
+        [
+          {
+            "id": 1,
+            "titulo": "Casa en venta en Mar del Plata",
+            "tipo": "Casa",
+            "operacion": "Venta", 
+            "precio": 95000,
+            "moneda": "USD",
+            "ubicacion": {
+              "direccion": "Calle Falsa 123",
+              "ciudad": "Mar del Plata",
+              "provincia": "Buenos Aires",
+              "pais": "Argentina"
+            },
+            "ambientes": 4,
+            "dormitorios": 3,
+            "banos": 2,
+            "cochera": true,
+            "superficie_total_m2": 200,
+            "superficie_cubierta_m2": 150,
+            "descripcion": "Hermosa casa con vista al mar, jardín amplio y quincho.",
+            "servicios": ["Agua corriente", "Luz", "Gas natural", "Internet"],
+            "amenities": ["Jardín", "Parrilla", "Quincho", "Balcón"],
+            "imagenes": [
+              "https://i.imgur.com/imagen1.jpg",
+              "https://i.imgur.com/imagen2.jpg"
+            ],
+            "imagen_destacada": "https://i.imgur.com/imagen1.jpg",
+            "publicado": "2025-04-29",
+            "contacto": {
+              "nombre": "Inmobiliaria Costa",
+              "telefono": "+54 9 223 1234567",
+              "email": "contacto@inmocosta.com"
+            }
+          },
+          {
+            ... resto de propiedades ...
+          }
+        ]
+      </section>
+    </div>
+  </div>
+
+  <h2>Ejemplo de respuesta <code>GET /api/properties/:id</code></h2>
+  <div class="card-grid">
+    <div class="card">
+      <section class="pre">
+        {
+          "id": 1,
+          "titulo": "Casa en venta en Mar del Plata",
+          "tipo": "Casa",
+          "operacion": "Venta",
+          "precio": 95000,
+          "moneda": "USD",
+          "ubicacion": {
+            "direccion": "Calle Falsa 123",
+            "ciudad": "Mar del Plata",
+            "provincia": "Buenos Aires",
+            "pais": "Argentina"
+          },
+          "ambientes": 4,
+          "dormitorios": 3,
+          "banos": 2,
+          "cochera": true,
+          "superficie_total_m2": 200,
+          "superficie_cubierta_m2": 150,
+          "descripcion": "Hermosa casa con vista al mar, jardín amplio y quincho.",
+          "servicios": [
+            "Agua corriente",
+            "Luz",
+            "Gas natural",
+            "Internet"
+          ],
+          "amenities": [
+            "Jardín",
+            "Parrilla",
+            "Quincho",
+            "Balcón"
+          ],
+          "imagenes": [
+            "https://i.imgur.com/imagen1.jpg",
+            "https://i.imgur.com/imagen2.jpg"
+          ],
+          "imagen_destacada": "https://i.imgur.com/imagen1.jpg",
+          "publicado": "2025-04-29",
+          "contacto": {
+            "nombre": "Inmobiliaria Costa",
+            "telefono": "+54 9 223 1234567",
+            "email": "contacto@inmocosta.com"
+          }
+        }
+      </section>
+    </div>
+  </div>
+
+  <h2>Ejemplo de respuesta <code>GET /api/properties/summary</code></h2>
+  <div class="card-grid">
+    <div class="card">
+      <section class="pre">
+        [
+          {
+            "id": 1,
+            "titulo": "Casa en venta en Mar del Plata",
+            "precio": 95000,
+            "moneda": "USD",
+            "ubicacion": "Mar del Plata, Buenos Aires",
+            "imagen_destacada": "https://i.imgur.com/imagen1.jpg",
+            "tipo": "Casa",
+            "operacion": "Venta"
+          },
+          {
+            ... resto de propiedades ...
+          }
+        ]
+      </section>
+    </div>
+  </div>
+
+  <p><a href="/">Volver al inicio</a></p>
+</body>
+</html>

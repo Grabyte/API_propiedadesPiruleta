@@ -1,60 +1,60 @@
 [
   {
     "id": 1,
-    "titulo": "Casa en venta en Mar del Plata",
+    "titulo": "Casa contemporánea con diseño de autor y jardín tropical privado",
     "tipo": "Casa",
     "operacion": "Venta", 
-    "precio": 95000,
+    "precio": 115000,
     "moneda": "USD",
     "ubicacion": {
-      "direccion": "Calle Falsa 123",
-      "ciudad": "Mar del Plata",
+      "direccion": "San Martín 123",
+      "ciudad": "CABA",
       "provincia": "Buenos Aires",
       "pais": "Argentina"
     },
     "ambientes": 4,
-    "dormitorios": 3,
+    "dormitorios": 2,
     "banos": 2,
     "cochera": true,
-    "superficie_total_m2": 200,
-    "superficie_cubierta_m2": 150,
-    "descripcion": "Hermosa casa con vista al mar, jardín amplio y quincho.",
-    "servicios": ["Agua corriente", "Luz", "Gas natural", "Internet"],
-    "amenities": ["Jardín", "Parrilla", "Quincho", "Balcón"],
+    "superficie_total_m2": 220,
+    "superficie_cubierta_m2": 185,
+    "descripcion": "Esta casa única combina arquitectura moderna, materiales nobles y un entorno verde exuberante que se integra perfectamente a los espacios interiores. Diseñada para quienes buscan calidad de vida, privacidad y diseño de alta gama.",
+    "servicios": ["Agua corriente", "Luz", "Gas natural"],
+    "amenities": ["Jardín", "Parrilla", "Balcón","Picina"],
     "imagenes": [
       "https://i.imgur.com/imagen1.jpg",
       "https://i.imgur.com/imagen2.jpg"
     ],
     "imagen_destacada": "https://i.imgur.com/imagen1.jpg",
-    "publicado": "2025-04-29",
+    "publicado": "2025-04-26",
     "contacto": {
-      "nombre": "Inmobiliaria Costa",
-      "telefono": "+54 9 223 1234567",
+      "nombre": "Inmobiliaria Basas",
+      "telefono": "+54 9 223 1534567",
       "email": "contacto@inmocosta.com"
     }
   },
   {
     "id": 2,
-    "titulo": "Departamento en alquiler en Buenos Aires",
-    "tipo": "Departamento",
-    "operacion": "Alquiler",
-    "precio": 700,
+    "titulo": "Casa moderna de diseño frente al arroyo",
+    "tipo": "Casa",
+    "operacion": "Venta",
+    "precio": 120000,
     "moneda": "USD",
     "ubicacion": {
       "direccion": "Av. Corrientes 456",
-      "ciudad": "Buenos Aires",
-      "provincia": "Capital Federal",
+      "ciudad": "Tigre",
+      "provincia": "Buenos Aires",
       "pais": "Argentina"
     },
-    "ambientes": 3,
-    "dormitorios": 2,
-    "banos": 1,
-    "cochera": false,
-    "superficie_total_m2": 75,
-    "superficie_cubierta_m2": 60,
-    "descripcion": "Departamento moderno con balcón y excelente ubicación.",
-    "servicios": ["Agua corriente", "Luz", "Internet"],
-    "amenities": ["Balcón", "Ascensor"],
+    "ambientes": 4,
+    "dormitorios": 3,
+    "banos": 3,
+    "cochera": true,
+    "superficie_total_m2": 630,
+    "superficie_cubierta_m2": 320,
+    "descripcion": "Una casa que fusiona calidez material, funcionalidad y una fuerte relación con el paisaje. El uso del ladrillo visto, el hormigón a la vista y los amplios ventanales dan carácter a esta residencia de diseño atemporal.",
+    "servicios": ["Agua corriente", "Luz", "Gas natural"],
+    "amenities": ["Balcón", "Picina", "Parrilla"],
     "imagenes": [
       "https://i.imgur.com/imagen3.jpg",
       "https://i.imgur.com/imagen4.jpg"
@@ -62,9 +62,43 @@
     "imagen_destacada": "https://i.imgur.com/imagen3.jpg",
     "publicado": "2025-04-28",
     "contacto": {
-      "nombre": "Inmobiliaria Centro",
-      "telefono": "+54 9 11 22334455",
-      "email": "info@inmocentro.com"
+      "nombre": "Inmobiliaria Lago",
+      "telefono": "+54 9 223 1536267",
+      "email": "contacto@inmolagu.com"
+    }
+  },
+  {
+    "id": 3,
+    "titulo": "Casa moderna de diseño frente al arroyo",
+    "tipo": "Casa",
+    "operacion": "Venta",
+    "precio": 120000,
+    "moneda": "USD",
+    "ubicacion": {
+      "direccion": "Av. Corrientes 456",
+      "ciudad": "Tigre",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "ambientes": 4,
+    "dormitorios": 3,
+    "banos": 3,
+    "cochera": true,
+    "superficie_total_m2": 630,
+    "superficie_cubierta_m2": 320,
+    "descripcion": "Una casa que fusiona calidez material, funcionalidad y una fuerte relación con el paisaje. El uso del ladrillo visto, el hormigón a la vista y los amplios ventanales dan carácter a esta residencia de diseño atemporal.",
+    "servicios": ["Agua corriente", "Luz", "Gas natural"],
+    "amenities": ["Balcón", "Picina", "Parrilla"],
+    "imagenes": [
+      "https://i.imgur.com/imagen3.jpg",
+      "https://i.imgur.com/imagen4.jpg"
+    ],
+    "imagen_destacada": "https://i.imgur.com/imagen3.jpg",
+    "publicado": "2025-04-28",
+    "contacto": {
+      "nombre": "Inmobiliaria Lago",
+      "telefono": "+54 9 223 1536267",
+      "email": "contacto@inmolagu.com"
     }
   }
 ]
