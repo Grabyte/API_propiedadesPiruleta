@@ -1035,5 +1035,236 @@
       "telefono": "+549 11 96742964",
       "email": "contacto@imohud.com"
     }
+  },
+  {
+    "id": 20,
+    "titulo": "Lote en Alejandro Korn - Oportunidad para Construir tu Hogar Cerca de la Ciudad",
+    "tipo": "Terreno",
+    "operacion": "Venta",
+    "precio": 10000,
+    "moneda": "USD",
+    "ubicacion": {
+      "direccion": "Basavilbaso 3500",
+      "ciudad": "Alejandro Korn",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "ambientes": 0,
+    "dormitorios": 0,
+    "banos": 0,
+    "cochera": false,
+    "superficie_total_m2": 350,
+    "superficie_cubierta_m2": 0,
+    "descripcion": "Terreno en zona residencial de Alejandro Korn, ideal para construir tu casa con amplios espacios. Ubicado en un barrio tranquilo, cercano a escuelas, transporte público y accesos rápidos a la Autovía 2. Servicios básicos disponibles (luz, agua, gas). ¡Perfecto para familias o inversores que buscan desarrollar proyectos a medida! Posibilidad de dividir el lote.",
+    "servicios": ["Agua corriente", "Luz", "Gas natural"],
+    "amenities": ["-", "-"],
+    "imagenes": [
+      "https://i.imgur.com/UbSlFph.png",
+      "https://i.imgur.com/usvKnaw.png",
+      "https://i.imgur.com/E6SWl2Y.png",
+      "https://i.imgur.com/KVMAcQ3.jpeg",
+      "https://i.imgur.com/8ICcO2K.jpeg",
+      "https://i.imgur.com/Kwkw3TJ.jpeg"
+    ],
+    "imagen_destacada": "https://i.imgur.com/UbSlFph.png",
+    "publicado": "04/12/2024",
+    "contacto": {
+      "nombre": "Inmobiliaria Kroninsta",
+      "telefono": "+549 11 28439254",
+      "email": "contacto@imokron.com"
+    }
+  },
+  {
+    "id": 21,
+    "titulo": "Lote en Alejandro Korn - Oportunidad para Construir tu Hogar Cerca de la Ciudad",
+    "tipo": "Terreno",
+    "operacion": "Venta",
+    "precio": 22000,
+    "moneda": "USD",
+    "ubicacion": {
+      "direccion": "Calle 4 y Avenida 4",
+      "ciudad": "La Plata",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "ambientes": 0,
+    "dormitorios": 0,
+    "banos": 0,
+    "cochera": false,
+    "superficie_total_m2": 300,
+    "superficie_cubierta_m2": 0,
+    "descripcion": "Excelente terreno en La Plata, a solo 15 minutos del centro histórico. Zona con alto potencial de valorización, cercana a universidades y futuros desarrollos comerciales. Ideal para construcción de vivienda o proyecto inmobiliario. Cuenta con todos los servicios urbanos y calles pavimentadas. ¡Oportunidad única en una ciudad con alta demanda!",
+    "servicios": ["Agua corriente", "Luz", "Gas natural"],
+    "amenities": ["-", "-"],
+    "imagenes": [
+      "https://i.imgur.com/p0tHlro.jpeg",
+      "https://i.imgur.com/9NAxYYV.jpeg",
+      "https://i.imgur.com/qLDjAOO.jpeg",
+      "https://i.imgur.com/NWIKalN.jpeg",
+      "https://i.imgur.com/daIAvtC.jpeg"
+    ],
+    "imagen_destacada": "https://i.imgur.com/p0tHlro.jpeg",
+    "publicado": "04/01/2025",
+    "contacto": {
+      "nombre": "Inmobiliaria Platence",
+      "telefono": "+549 221 28972249",
+      "email": "contacto@imoplt.com"
+    }
+  },
+  {
+    "id": 22,
+    "titulo": "Lote en Villa Amelia - Oportunidad en futuro barrio privado",
+    "tipo": "Terreno",
+    "operacion": "Venta",
+    "precio": 18000,
+    "moneda": "USD",
+    "ubicacion": {
+      "direccion": "Dorrego y España",
+      "ciudad": "Villa Amelia",
+      "provincia": "Santa Fe",
+      "pais": "Argentina"
+    },
+    "ambientes": 0,
+    "dormitorios": 0,
+    "banos": 0,
+    "cochera": false,
+    "superficie_total_m2": 360,
+    "superficie_cubierta_m2": 0,
+    "descripcion": "Terreno residencial en Villa Amelia, Santa Fe, ideal para construir la casa de tus sueños en un barrio en crecimiento. Ubicado en una zona tranquila y bien conectada, con calles amplias y cercanía a escuelas, comercios y transporte público. Servicios básicos disponibles (luz, agua, red cloacal). ¡Oportunidad para familias que buscan un ambiente seguro y con proyección de valorización! Posibilidad de dividir el terreno en lotes más pequeños",
+    "servicios": ["Agua corriente", "Luz", "Gas natural"],
+    "amenities": ["-", "-"],
+    "imagenes": [
+      "https://i.imgur.com/ZIHb9nK.jpeg",
+      "https://i.imgur.com/ZALQY4d.jpeg",
+      "https://i.imgur.com/pPDFaTx.jpeg",
+      "https://i.imgur.com/4BMGf56.jpeg",
+      "https://i.imgur.com/DtM4Dxr.jpeg",
+      "https://i.imgur.com/9oNKgV6.jpeg",
+      "https://i.imgur.com/yf1tNPs.jpeg"
+    ],
+    "imagen_destacada": "https://i.imgur.com/ZIHb9nK.jpeg",
+    "publicado": "12/01/2025",
+    "contacto": {
+      "nombre": "Inmobiliaria Borrego",
+      "telefono": "+549 342 2983746",
+      "email": "contacto@imobor.com"
+    }
+  },
+  {
+    "id": 23,
+    "titulo": "Lote en Chacras de Coria - Joya en Zona Vitivinícola de Mendoza",
+    "tipo": "Terreno",
+    "operacion": "Venta",
+    "precio": 73000,
+    "moneda": "USD",
+    "ubicacion": {
+      "direccion": "Viamonte al 1000",
+      "ciudad": "Lujan del Cuyo",
+      "provincia": "Mendoza",
+      "pais": "Argentina"
+    },
+    "ambientes": 0,
+    "dormitorios": 0,
+    "banos": 0,
+    "cochera": false,
+    "superficie_total_m2": 600,
+    "superficie_cubierta_m2": 0,
+    "descripcion": "Terreno en el prestigioso barrio de Chacras de Coria, Mendoza. Rodeado de viñedos y con vistas a la cordillera, es ideal para construir una casa de campo con piscina o una bodega boutique. Servicios urbanizados y a solo 10 minutos de bodegas emblemáticas. ¡Oportunidad en una de las zonas más cotizadas de Luján de Cuyo!",
+    "servicios": ["Agua corriente", "Luz", "Gas natural"],
+    "amenities": ["-", "-"],
+    "imagenes": [
+      "https://i.imgur.com/Ux9zuOM.jpeg",
+      "https://i.imgur.com/Qs7XgZI.jpeg",
+      "https://i.imgur.com/Ezefn6w.jpeg",
+      "https://i.imgur.com/P89SLCQ.jpeg",
+      "https://i.imgur.com/dsL2RD6.jpeg",
+      "https://i.imgur.com/FkNyBU8.jpeg"
+    ],
+    "imagen_destacada": "https://i.imgur.com/Ux9zuOM.jpeg",
+    "publicado": "18/02/2025",
+    "contacto": {
+      "nombre": "Inmobiliaria Chacra",
+      "telefono": "+549 261 2982934",
+      "email": "contacto@imoch.com"
+    }
+  },
+  {
+    "id": 24,
+    "titulo": "Lote en Salsipuedes - Refugio Natural en las Sierras Cordobesas",
+    "tipo": "Terreno",
+    "operacion": "Venta",
+    "precio": 13000,
+    "moneda": "USD",
+    "ubicacion": {
+      "direccion": "Viamonte al 1000",
+      "ciudad": "Salsipuedes",
+      "provincia": "Cordoba",
+      "pais": "Argentina"
+    },
+    "ambientes": 0,
+    "dormitorios": 0,
+    "banos": 0,
+    "cochera": false,
+    "superficie_total_m2": 300,
+    "superficie_cubierta_m2": 0,
+    "descripcion": "Terreno en Salsipuedes, Córdoba, ubicado en un barrio privado con seguridad las 24hs. Zona boscosa y tranquila, perfecta para construir una cabaña o casa de fin de semana. Cercano a arroyos y senderos para trekking. Servicios incluidos y comunidad amigable. ¡Vive cerca de la naturaleza sin sacrificar comodidades!",
+    "servicios": ["Agua corriente", "Luz", "Gas natural"],
+    "amenities": ["-", "-"],
+    "imagenes": [
+      "https://i.imgur.com/JiRUXhK.jpeg",
+      "https://i.imgur.com/iki8DcB.jpeg",
+      "https://i.imgur.com/6a2f4go.jpeg",
+      "https://i.imgur.com/hyiknWS.jpeg",
+      "https://i.imgur.com/oWmqGHB.jpeg",
+      "https://i.imgur.com/Je7z8wM.jpeg",
+      "https://i.imgur.com/0Fbpaxe.jpeg",
+      "https://i.imgur.com/aczAinj.jpeg"
+    ],
+    "imagen_destacada": "https://i.imgur.com/JiRUXhK.jpeg",
+    "publicado": "21/03/2025",
+    "contacto": {
+      "nombre": "Inmobiliaria Escapate",
+      "telefono": "+549 3541 8322934",
+      "email": "contacto@imoesc.com"
+    }
+  },
+  {
+    "id": 25,
+    "titulo": "Lote en Barrio La Arboleda, Escobar - Ideal para Familia o Inversión",
+    "tipo": "Terreno",
+    "operacion": "Venta",
+    "precio": 35000,
+    "moneda": "USD",
+    "ubicacion": {
+      "direccion": "Centenario 2000",
+      "ciudad": "Escobar",
+      "provincia": "Buenos Aires",
+      "pais": "Argentina"
+    },
+    "ambientes": 0,
+    "dormitorios": 0,
+    "banos": 0,
+    "cochera": false,
+    "superficie_total_m2": 300,
+    "superficie_cubierta_m2": 0,
+    "descripcion": "Terreno en el barrio cerrado La Arboleda, Garín. Zona residencial con calles arboladas, seguridad y amenities como pileta y clubhouse. Perfecto para construir una vivienda moderna con jardín, a solo 5 minutos de centros comerciales y accesos a Panamericana. ¡Proyecta tu casa en un entorno seguro y en crecimiento!",
+    "servicios": ["Agua corriente", "Luz", "Gas natural"],
+    "amenities": ["-", "-"],
+    "imagenes": [
+      "https://i.imgur.com/vHLkI1E.jpeg",
+      "https://i.imgur.com/pgwA75Z.jpeg",
+      "https://i.imgur.com/g7sTZmn.jpeg",
+      "https://i.imgur.com/cIa9rE4.jpeg",
+      "https://i.imgur.com/ncUOLl2.jpeg",
+      "https://i.imgur.com/kc4aUd5.jpeg",
+      "https://i.imgur.com/k9rw8q2.jpeg"
+    ],
+    "imagen_destacada": "https://i.imgur.com/vHLkI1E.jpeg",
+    "publicado": "24/04/2025",
+    "contacto": {
+      "nombre": "Inmobiliaria Arboleda",
+      "telefono": "+549 3484 8374934",
+      "email": "contacto@imoarb.com"
+    }
   }
 ]
